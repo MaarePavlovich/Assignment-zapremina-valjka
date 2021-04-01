@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    padding: 0 2rem 2rem 2rem;
+    overflow: hidden;
+    border: 1px dashed silver;
+}
+
+.box-title {
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.3);
+}
+
+.box-input {
+    width: 100%;
+    height: 2rem;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid gray;
+    font-family: inherit;
+    transition: border 0.1s;
+}
+
+.box-input:hover, .box-input:focus {
+    border-color: silver;
+}
+
+.box-button {
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid gray;
+    background-color: silver;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.2rem;
+    transition: background-color 0.1s;
+}
+
+.box-button:hover {
+    background-color: rgba(192, 192, 192, 0.8);
+}
+
+.box-display {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    padding: 0.5rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(192, 192, 192, 0.1);
+    border: 1px solid rgba(192, 192, 192, 0.3);
+}
